@@ -1,0 +1,34 @@
+ :root { --nord1--nordtheme--font:BlinkMacSystemFont,-apple-system,"Segoe UI","Roboto","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neu Helvetica","Arial", sans-serif;
+}
+
+body {
+    font-family: var(--font);
+    color: (--nord1);
+}
+ 
+header section  {
+    width: 200px;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+}
+ul {
+    list-style-type:var(--nord1--nordtheme--font);
+}
+
+Article {
+    width: 200%;
+}
+
+img {
+    width: 13%;
+    height: 13%;
+    margin-right: 16px;
+    border-radius:30px;
+}
+
+a, a:link, a:visited {
+    text-decoration: none;
+    color: (--nord7);
+} 
