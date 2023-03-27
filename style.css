@@ -6,10 +6,6 @@ body {
     color: (--nord1);
 }
  
-header section  {
-    width: 200px;
-    margin: 0 auto;
-}
 header {
     display: flex;
 }
@@ -17,9 +13,6 @@ ul {
     list-style-type:var(--nord1--nordtheme--font);
 }
 
-Article {
-    width: 200%;
-}
 
 img {
     width: 13%;
@@ -32,3 +25,13 @@ a, a:link, a:visited {
     text-decoration: none;
     color: (--nord7);
 } 
+
+div {
+    padding-left:10%;
+    border: 0px  solid black;  
+    padding-right:10%;
+    padding-top: 0%;
+}
+#alma{
+    padding-top: 5%;
+}
